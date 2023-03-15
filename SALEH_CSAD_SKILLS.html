@@ -42,6 +42,29 @@
 	color:white;
 	}
 	
+	/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
 	
 </style>
 </head>
@@ -49,6 +72,18 @@
 	<body style="font-family:Garamond, Georigia, Courier New, Serif;">
 
     <h1>Skills</h1>
+	
+	<div class="row">
+  <div class="column">
+    <a href="skill1.jpg"><img src="skill1.jpg" alt="skill1" style="width:60%"></a>
+  </div>
+   <div class="column">
+    <a href="skill2.jpg"><img src="skill2.jpg" alt="skill2" style="width:60%"></a>
+  </div>
+   <div class="column">
+    <a href="skill3.jpg"><img src="skill3.jpg" alt="skill3" style="width:60%"></a>
+  </div>
+</div> 
 
 	<p>There are several skills that I have acquired that I will discuss. In my high school years I have learned to play several different types of instruments.<sup>1</sup> These are bandurria, octavina, double-bass, guitar, laud.<sup>2</sup> Bandurria is the easiest to play and I can play a song with this instrument without a music score and just by hearing.<sup>3</sup> I can also transpose a music score as I did before in my club.<sup>4</sup> I can also learn something very fast if I have the necessary resources that I need.<sup>5</sup> If needed, I can converse with anyone regardless of their status in life.<sup>6</sup> Additionally I’m a great listener and observer that sometimes I notice the things that people don’t usually take notice of and appreciate it.<sup>7</sup> I can do simple programming.<sup>8</sup> I can adapt to changes quickly and blend in to the environment.<sup>9</sup> I can sing some opm and pop songs that are deeper than my voice.<sup>10</sup> I can also write and read the korean letter system called hangeul.<sup>11</sup> When conversing with other people, I can usually get an information from them without directly asking.<sup>12</sup> I can also cook fried foods.<sup>13</sup>
 	</p>

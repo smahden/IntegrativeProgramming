@@ -6,28 +6,90 @@
 	<style>
  /* unvisited link */
 	a:link {
-	  color: white;
+	background-color:  white;
+	  color: black;
 	}
 
 	/* visited link */
 	a:visited {
-	  color: green;
+	  color: hotpink;
 	}
 
 	/* mouse over link */
 	a:hover {
-	  color: hotpink;
+	  color: white;
 	 font-size:30px;
+	
 	}
 
 	a:active {
 	 color: blue;
 	} 
 	
+	.homepage{
+	width:30%;
+	margin:20px 40px 60px 100px;
+	display:block;		
+	color:green;
+	align:middle;
+	}
+	
+	.homepage a:hover{
+	color:blue;
+	}
+
+	
+	.link a:hover{
+	background-color:#6892b4 ;
+	width:10%;
+
+	}
+	
+	
+	/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.child{
+	padding: 80px;
+	background-color:  #4e6993   ;
+	border-radius: 1000px;
+}
+
+.teen{
+	padding: 80px;
+	background-color: #457563  ;
+	border-radius: 1000px;
+}
+
+.collegehood{
+	padding: 80px;
+	background-color: #9d9b65 ;
+	border-radius: 1000px;
+}
+	
 	</style>
 </head>
 	<!--CSAD-SALEH-MAHDEN-->
-<body style="font-family:Garamond, Georigia, Courier New, Serif;color:white;background-color:#355C7D;">
+<body id="top" style="font-family:Garamond, Georigia, Courier New, Serif;color:white;background-color:#355C7D;">
 	<div align="center">
 	<hr style="width:75%;text-align:center;color:white;"> 
 	<hr style="width:50%;text-align:center;color:white;"> 
@@ -39,21 +101,76 @@
     </div> 
 	<br>
 	<br>
-	<h2><div align="center"><mark style="background-color:white;color:#6C5B7B;font-family:Georgia, Serif">CHILDHOOD YEARS</mark></div></h2>
+	<div class="child">
+	<h2 id="childhood"><div align="center"><mark style="background-color:white;color:#6C5B7B;font-family:Georgia, Serif">CHILDHOOD YEARS</mark></div></h2>
+	<div class="row">
+  <div class="column">
+    <a href="childhood1.jpg"><img src="childhood1.jpg" alt="childhood1" style="width:100%"></a>
+  </div>
+   <div class="column">
+    <a href="childhood2.jpg"><img src="childhood2.jpg" alt="childhood2" style="width:100%"></a>
+  </div>
+   <div class="column">
+    <a href="childhood3.jpg"><img src="childhood3.jpg" alt="childhood3" style="width:100%"></a>
+  </div>
+</div> 
 	<div align="justify">
-	<blockquote><blockquote><blockquote><blockquote><blockquote><p style="font-size: 1em; font-family: Verdana, Arial, Helvetica, sans-serif;">I don't remember much about my childhood years.<sup>1</sup> We all have an embarassing memories during that time.<sup>2</sup> I was a quiet child.<sup>3</sup> I was so quiet that my guardian opt out to try hearsays about the techniques how to make a child talk. <sup>4</sup> When I try getting along with children at my age, I'm having a hard time as not only I'm a quiet child but a little mature one.<sup>5</sup> Therefore, I don't have that much friends or to be exact my only friend is elmo from the television that I love to watch.<sup>6</sup> Speaking of televisions, when I woke up in the morning, cartoons are playing in our television. <sup>7</sup>That was the best moment for me. <sup>8</sup> When I don't have anything else to do,<sup>9</sup> everyone else is busy and there are no classes, I draw some little skribbles in my school notebook which gets me trouble as my teacher gets to check out notebooks.<sup>10</sup> I also love champurado a filipino dish served usually in the morning at that time.<sup>11</sup> My grandmother cooks for me.<sup>12</sup> I remember anticipating so much about champurado that I tell her everyday that I want to eat it.<sup>13</sup> Due to my persistence, she give in eventually even she's still tired.<sup>14</sup> Even though I'm a quiet child with my age group, I'm very cuddly with my guardian.<sup>15</sup> In rainy days, I just lay beside her eating champurado.<sup>16</sup> Then she talks about things that I don't understand but I just listen and enjoy her company.<sup>17</sup> When its night time I always wonder about the <i>whys</i> of the world.<sup>18</sup> This like <q>Why I can't do whatever that I wanted?</q> <q>Why do I need to grow up</q>.<sup>19</sup> I feel like I'm already an adult in these years. My teachers always praise me in school.<sup>20</sup> How behave I am and how I can understand deep subjects which a child usually is not interested in.<sup>21</sup></p></div></blockquote></blockquote></blockquote></blockquote>
+	<div id="#childbody">
+	<blockquote><blockquote><blockquote><blockquote><blockquote><p style="font-size: 1em; font-family: Verdana, Arial, Helvetica, sans-serif;">I don't remember much about my childhood years.<sup>1</sup> We all have an embarassing memories during that time.<sup>2</sup> I was a quiet child.<sup>3</sup> I was so quiet that my guardian opt out to try hearsays about the techniques how to make a child talk. <sup>4</sup> When I try getting along with children at my age, I'm having a hard time as not only I'm a quiet child but a little mature one.<sup>5</sup> Therefore, I don't have that much friends or to be exact my only friend is elmo from the television that I love to watch.<sup>6</sup> Speaking of televisions, when I woke up in the morning, cartoons are playing in our television. <sup>7</sup>That was the best moment for me. <sup>8</sup> When I don't have anything else to do,<sup>9</sup> everyone else is busy and there are no classes, I draw some little skribbles in my school notebook which gets me trouble as my teacher gets to check out notebooks.<sup>10</sup> I also love champurado a filipino dish served usually in the morning at that time.<sup>11</sup> My grandmother cooks for me.<sup>12</sup> I remember anticipating so much about champurado that I tell her everyday that I want to eat it.<sup>13</sup> Due to my persistence, she give in eventually even she's still tired.<sup>14</sup> Even though I'm a quiet child with my age group, I'm very cuddly with my guardian.<sup>15</sup> In rainy days, I just lay beside her eating champurado.<sup>16</sup> Then she talks about things that I don't understand but I just listen and enjoy her company.<sup>17</sup> When its night time I always wonder about the <i>whys</i> of the world.<sup>18</sup> This like <q>Why I can't do whatever that I wanted?</q> <q>Why do I need to grow up</q>.<sup>19</sup> I feel like I'm already an adult in these years. My teachers always praise me in school.<sup>20</sup> How behave I am and how I can understand deep subjects which a child usually is not interested in.<sup>21</sup></p></div></blockquote></blockquote></blockquote></blockquote></div></div>
+	
+	<div class="link">
+	<a href="#top">Go to top</a>
+	</div>
 	<br>
 	<br>
 
+	<div class="teen">
+	<h2 id="teenage"><div align="center"><mark style="background-color:white;color:#6C5B7B;font-family:Georgia, Serif">TEENAGE YEARS</mark> </div></h2>
 	
-	<h2><div align="center"><mark style="background-color:white;color:#6C5B7B;font-family:Georgia, Serif">TEENAGE YEARS</mark> </h2></div>
-	<blockquote><blockquote><blockquote><blockquote><blockquote><p style="font-size: 1em; font-family: Verdana, Arial, Helvetica, sans-serif;">This is the time where our hormones are on its peak.<sup>1</sup> Its also usually the time where a child transition to a semi adult.<sup>2</sup> In these times for me are the most memorable.<sup>3</sup> When I entered highschool, I was still friends with my seatmate in elementary.<sup>4</sup> She asked me if I wanted to help her join a club.<sup>5</sup> Then thats where it all began. After I helped her I suddenly joined the club and learned different instruments.<sup>6</sup> When I was in my first year we join a Rondalla competition.<sup>7</sup> It was my first memorable competition as even I am a newbie in my instrument, our instructor let me join in with the competition.<sup>8</sup> I remember that I rather pratice my instrument than attend my class.<sup>9</sup> We got first place on that competition.<sup>10</sup> It was so fun.<sup>11</sup> In my second year, I trained new people and help them choose their instrument.<sup>12</sup> This is also the time that I am a little mischivous and did not go home on time.<sup>13</sup> After class my clubmates and I spent talking and singing notes to each other while walking down the streets near our school.<sup>14</sup> In my third year, an opportunity came.<sup>15</sup> Our student teacher asks 2 of us to play on a television.<sup>16</sup> That made us excited and accepted the opportunity.<sup>17</sup> They did not show us what to play.<sup>18</sup> When it was time for the taping they handed out the music score.<sup>19</sup> Suprisingly it was easy but the teenage me is so agitated and anxious that I might get the wrong notes on cam.<sup>20</sup> We did well with the taping and that became one of my core memories.<sup>21</sup> Even I am focused with my club I graduated with the highest gpa in my class<sup>22</sup></p></blockquote></blockquote></blockquote></blockquote></blockquote>
+	<div class="row">
+  <div class="column">
+    <a href="teenage1.jpg"><img src="teenage1.jpg" alt="teenage1" style="width:100%"></a>
+  </div>
+   <div class="column">
+    <a href="teenage2.jpg"><img src="teenage2.jpg" alt="teenage2" style="width:100%"></a>
+  </div>
+   <div class="column">
+    <a href="teenage3.jpg"><img src="teenage3.jpg" alt="teenage3" style="width:100%"></a>
+  </div>
+	</div>
+  <div align="justify">
+	<blockquote><blockquote><blockquote><blockquote><blockquote><p style="font-size: 1em; font-family: Verdana, Arial, Helvetica, sans-serif;">This is the time where our hormones are on its peak.<sup>1</sup> Its also usually the time where a child transition to a semi adult.<sup>2</sup> In these times for me are the most memorable.<sup>3</sup> When I entered highschool, I was still friends with my seatmate in elementary.<sup>4</sup> She asked me if I wanted to help her join a club.<sup>5</sup> Then thats where it all began. After I helped her I suddenly joined the club and learned different instruments.<sup>6</sup> When I was in my first year we join a Rondalla competition.<sup>7</sup> It was my first memorable competition as even I am a newbie in my instrument, our instructor let me join in with the competition.<sup>8</sup> I remember that I rather pratice my instrument than attend my class.<sup>9</sup> We got first place on that competition.<sup>10</sup> It was so fun.<sup>11</sup> In my second year, I trained new people and help them choose their instrument.<sup>12</sup> This is also the time that I am a little mischivous and did not go home on time.<sup>13</sup> After class my clubmates and I spent talking and singing notes to each other while walking down the streets near our school.<sup>14</sup> In my third year, an opportunity came.<sup>15</sup> Our student teacher asks 2 of us to play on a television.<sup>16</sup> That made us excited and accepted the opportunity.<sup>17</sup> They did not show us what to play.<sup>18</sup> When it was time for the taping they handed out the music score.<sup>19</sup> Suprisingly it was easy but the teenage me is so agitated and anxious that I might get the wrong notes on cam.<sup>20</sup> We did well with the taping and that became one of my core memories.<sup>21</sup> Even I am focused with my club I graduated with the highest gpa in my class<sup>22</sup></p></blockquote></blockquote></blockquote></blockquote></blockquote></div>
+	</div>
+	<div class="link">
+	<a href="#top">Go to top</a>
+	</div>
+	
 	<br>
 	<br>
 	
-	<h2><div align="center"><mark style="background-color:white;color:#6C5B7B;font-family:Georgia, Serif">COLLEGE YEARS</mark></h2></div>
-	<p style=“font-family: Verdana, Arial, Helvetica, sans-serif;”><blockquote><blockquote><blockquote><blockquote><blockquote><p style="font-size: 1em; font-family: Verdana, Arial, Helvetica, sans-serif;">This is where my mind has faced the reality. <sup>1</sup>In my childhood and teenage years, I am an achiever. <sup>2</sup> But in college this is where I realized that there's always a better person than me.<sup>3</sup> It is also where I experienced my first field trip.<sup>4</sup> Since my mother and guardian is overprotective, my mother also accompanied me to our educational tour where we go to heritage places with my classmates and professor.<sup>5</sup> It was tiring but fun.<sup>6</sup> I am still the same quiet kid.<sup>7</sup> This is also the time where I learned crypto currency.<sup>8</sup> After my guardian died I stopped college and did crypto which made me earn lots.<sup>9</sup> But after a while I continued studying as it is one of the wish of my guardian and I know that a bachelors degree will help me in life.<sup>10</sup> Continuing my bachelors degree is one of the best decisions that I have done.<sup>11</sup> Since there's still a pandemic, our classes are only in online class.<sup>12</sup> That's where I discovered that I learn the best at home and with online class.<sup>13</sup> I don't need to think about travel time and expenses.<sup>14</sup> I'm grateful that I have the priviledge to have an online class as opposed to other students that does not have access to internet.<sup>15</sup> I participated actively and got a decent grade.<sup>16</sup> I enjoyed the pacing of my online class.<sup>17</sup> But as the pandemic eased out, the face to face classes restrictions got lenient.<sup>18</sup> The face to face classes made me anxious unlike online classes where I am much comfortable.<sup>19</sup> But that also improved my fear from people.<sup>20</sup> I also learned how to interact with people unlike before. Additionally, I've made a friend that made me comfortable and improve myself to be the better version of me.<sup>21</sup> </span> </p></blockquote></blockquote></blockquote></blockquote></blockquote>
+	<div class="collegehood">
+	<h2 id="college"><div align="center"><mark style="background-color:white;color:#6C5B7B;font-family:Georgia, Serif">COLLEGE YEARS</mark></div></h2>
+
+		<div class="row">
+  <div class="column">
+    <a href="college1.png"><img src="college1.png" alt="college1" style="width:100%"></a>
+  </div>
+   <div class="column">
+    <a href="college2.png"><img src="college2.png" alt="college2" style="width:100%"></a>
+  </div>
+   <div class="column">
+    <a href="college3.png"><img src="college3.png" alt="college3" style="width:100%"></a>
+  </div>
+	</div>
+	<div align="justify">
+	<blockquote><blockquote><blockquote><blockquote><blockquote><p style="font-size: 1em; font-family: Verdana, Arial, Helvetica, sans-serif;">This is where my mind has faced the reality. <sup>1</sup>In my childhood and teenage years, I am an achiever. <sup>2</sup> But in college this is where I realized that there's always a better person than me.<sup>3</sup> It is also where I experienced my first field trip.<sup>4</sup> Since my mother and guardian is overprotective, my mother also accompanied me to our educational tour where we go to heritage places with my classmates and professor.<sup>5</sup> It was tiring but fun.<sup>6</sup> I am still the same quiet kid.<sup>7</sup> This is also the time where I learned crypto currency.<sup>8</sup> After my guardian died I stopped college and did crypto which made me earn lots.<sup>9</sup> But after a while I continued studying as it is one of the wish of my guardian and I know that a bachelors degree will help me in life.<sup>10</sup> Continuing my bachelors degree is one of the best decisions that I have done.<sup>11</sup> Since there's still a pandemic, our classes are only in online class.<sup>12</sup> That's where I discovered that I learn the best at home and with online class.<sup>13</sup> I don't need to think about travel time and expenses.<sup>14</sup> I'm grateful that I have the priviledge to have an online class as opposed to other students that does not have access to internet.<sup>15</sup> I participated actively and got a decent grade.<sup>16</sup> I enjoyed the pacing of my online class.<sup>17</sup> But as the pandemic eased out, the face to face classes restrictions got lenient.<sup>18</sup> The face to face classes made me anxious unlike online classes where I am much comfortable.<sup>19</sup> But that also improved my fear from people.<sup>20</sup> I also learned how to interact with people unlike before. Additionally, I've made a friend that made me comfortable and improve myself to be the better version of me.<sup>21</sup> </span> </p></blockquote></blockquote></blockquote></blockquote></blockquote></div></div>
+	<div class="link">
+	<a href="#top">Go to top</a>
+	</div>
 	
-	<a href="index.html" title="Homepage"> Back to homepage</a>
+	<div class="homepage">
+	<a class="homepage" href="index.html" title="Homepage"> Back to homepage</a>
+	
+	</div>
 </body>
 </html>
