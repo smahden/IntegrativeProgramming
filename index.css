@@ -1,0 +1,202 @@
+
+body{
+	
+	 overflow-x: hidden;
+}
+	
+	
+.header {
+	background-image: url('bannercloud.jpg');
+	
+	
+	overflow: hidden;
+	background-color: rgba(255,255,255, .79);
+	padding: 20px 10px;
+	
+}
+	
+.header a, p {
+	float: left;
+	color:rgba(200,233,130, 1);
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 30px;
+	
+}
+	
+.header p.logo {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.header a:hover {
+	background-color: rgba(200,233,130, .5);
+	color: white;
+	line-height: 40px;
+}
+
+.header a.active {
+	background-color: black;
+	color: white;
+}
+
+.header-right {
+	float: right;
+}
+
+
+.center{
+	text-align:center;
+	font-size:40px;
+	color: #283239;
+
+}
+
+body{
+	
+	background-image: url("stars.gif");
+	background-size:100%;
+    /* background-repeat: repeat; */
+    background-attachment: scroll;
+    height:100%;
+    width:100%;
+	
+}
+#welcome{
+	background-color: rgba(255, 255, 255, .7);
+	margin:50px;
+}
+
+.header img{
+	padding-right:5px;
+	width: 20px;
+
+}
+
+.container {
+		background-color: rgba(200,100,100,0.3);
+		
+        display: flex;
+        align-items: center;
+        justify-content: center
+		border: 20 px solid blue;
+      }
+.image {
+	flex-basis: 40%
+	width: 300px;
+	 
+	 padding-right:300px;
+	
+  }
+.text {
+	/* background-color: rgba(140,200,255,0.3); */
+	border-radius:200px;
+	padding: 30px;
+	color:white;
+	font-size: 20px;
+	border-radius: 200px;
+	border-color:blue;
+	border-width: 300x;
+	/* padding-left: 20px; */
+  }
+ 
+.text a{
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 30px;
+	
+	
+}
+
+ .text a:hover{
+	background-color: rgba(50,200,255,0.3);
+ }
+ 
+ .question1{
+	 flex-basis: 40%;
+	 width: 600px;
+	 height: 600px;
+	 
+	 
+ }
+ 
+ 
+ 
+ .unveil{
+	 
+	width: 130px;
+	height: 195px;
+	position: relative;
+	display: inline-block	;
+	margin: 50px;
+	padding-right:150px;
+	border:20px;
+	
+}
+.unveil .back {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.unveil:hover .back {
+	display: inline;
+}
+
+.setbox{
+	align
+	
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.topbutton #topbut{
+	 position: fixed;
+	 bottom:0;
+	 right:0;
+	
+	 border-radius: 10px;
+	 height:50px;
+	 width: 50px;
+	 margin: 20px;
+    
+	
+}
+
+#imgtopbut{
+	height:50px;
+	 width: 50px;
+	
+}
+
+#imgtopbut img:hover{
+	height: 600px;
+	width: 100px;
+	
+}
