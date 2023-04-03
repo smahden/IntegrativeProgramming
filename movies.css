@@ -1,0 +1,85 @@
+
+body{
+	
+	 overflow-x: hidden;
+}
+	
+	
+.header {
+	background-image: url('bannercloud.jpg');
+	
+	
+	overflow: hidden;
+	background-color: rgba(255,255,255, .79);
+	padding: 30px 10px;
+	
+}
+	
+.header a, p {
+	float: left;
+	color:rgba(200,233,130, 1);
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 30px;
+	border-radius: 30px;
+	
+}
+	
+.header p.logo {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+
+.header a:hover {
+	background-color: rgba(200,233,130, .5);
+	color: white;
+	line-height: 40px;
+}
+
+.header a.active {
+	background-color: black;
+	color: white;
+}
+
+.header-right {
+	float: right;
+}
+
+
+.center{
+	text-align:center;
+	font-size:40px;
+	color: #283239;
+
+}
+
+body{
+	
+	background-image: url("stars.gif");
+	background-size:100%;
+    /* background-repeat: repeat; */
+    background-attachment: scroll;
+    height:100%;
+    width:100%;
+	
+}
+#welcome{
+	background-color: rgba(255, 255, 255, .7);
+	margin:50px;
+}
+
+.header img{
+	padding-right:5px;
+	width: 20px;
+
+}
+
+h1{
+	
+	background-color:rgba(100,0,200,0.3);
+	
+}
