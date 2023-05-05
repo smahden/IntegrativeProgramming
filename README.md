@@ -1,3 +1,3 @@
 # IntegrativeProgramming
--course requirement
-#Midterm Requirement
+- course requirement
+## Midterm Requirement
