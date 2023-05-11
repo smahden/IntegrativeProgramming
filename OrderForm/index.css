@@ -1,8 +1,9 @@
 body{
-	background-image: url("promo_video.gif");
+	/* background-image: url("promo_video.gif"); */
     background-size: cover;
 	background-repeat: no-repeat;
 	font-family:Arial;
+	background-color: rgba(242, 197, 157);
 
 }
 
