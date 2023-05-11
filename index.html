@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" href="index.css">
+<title></title>
+</head>
+
+<body>
+<!-- SALEH, MAHDEN -->
+<!-- MAY 6, 2023 -->
+
+<div class="center">
+
+<img src="logo.svg" id="logo"></img>
+<form action="#menu" class="df">
+         <button type="submit">Delivery</button>
+		 <button type="submit">Pick-up</button>
+      </form>
+</div>
+
+<div class="center" id="menu">
+<table>
+<caption>Menu</caption>
+<tr>
+<th><img src="burger.png"></img></th>
+<th><img width="200px"src="pasta.png"></img></th>
+<th><img src="fries.png"></img></th>
+<th><img src="drink.png"></img></th>
+</tr>
+<tr>
+<td>Burger</td>
+<td>Pasta</td>
+<td>Fries</td>
+<td>Drinks</td>
+</tr>
+</table>
+
+
+<table class="orderselect" id="choice">
+<caption>Order Selection</caption>
+<form method="post" action="#choices" class="center">
+<tr>
+<td style="padding-top:50px"><label for="burger">Burger:</label></td>
+<td>
+  <input type="radio" id="singlepatty" name="patty" value="singlepatty" CHECKED>
+  <label for="singlepatty">single patty</label><br>
+    <input type="radio" id="doublepatty" name="patty" value="doublepatty">
+  <label for="doublepatty">double patty</label><br>
+  
+  <!-- <td><label for="checkAll">Check all the Applies</label></td> -->
+            <td style="padding-top:50px">
+              <input type="checkbox" id="cheese" name="toppings" value="cheese">
+              <label for="cheese"> cheese</label><br>
+              
+              <input type="checkbox" id="coleslaw" name="toppings" value="coleslaw">
+              <label for="coleslaw"> coleslaw</label><br>
+              
+              <input type="checkbox" id="tomato" name="toppings" value="tomato">
+              <label for="tomato"> Tomato</label><br>
+			  
+			  <input type="checkbox" id="onion" name="toppings" value="onion">
+              <label for="onion"> Onion</label><br>
+			  
+			  <input type="checkbox" id="cucumber" name="toppings" value="cucumber">
+              <label for="cucumber"> Cucumber</label><br>
+			  
+			  <input type="checkbox" id="bacon" name="toppings" value="bacon">
+              <label for="bacon"> Bacon</label><br>
+			 
+          <!-- </tr> -->
+
+				
+            
+</tr>
+
+
+<tr>
+<td><label for="buns">Buns:</label></td>
+<td>
+  <input type="radio" id="whitebun" name="bun" value="whitebun" CHECKED>
+  <label for="whitebun">White bun</label><br>
+  <input type="radio" id="wheatbun" name="bun" value="wheatbun">
+  <label for="wheatbun">Wheat bun</label><br>
+  <input type="radio" id="honeyoat" name="bun" value="honeyoat">
+  <label for="honeyoat">Honeyo Oat</label><br>
+  <input type="radio" id="sugarfree" name="bun" value="sugarfree">
+  <label for="sugarfree">Sugar Free</label><br>
+</tr>
+
+<tr>
+<td><label for="pasta">Pasta:</label></td>
+<td>
+<input type="radio" id="carbonara" name="sauce" value="carbonara" CHECKED>
+  <label for="carbonara">Carbonara</label><br>
+  <input type="radio" id="pesto" name="sauce" value="pesto">
+  <label for="pesto">Pesto</label><br>
+  <input type="radio" id="spaghetti" name="sauce" value="spaghetti">
+  <label for="spaghetti">Spaghetti</label><br>
+</td>
+<td>
+              <input type="checkbox" id="extrasauce" name="extrasauce" value="extrasauce">
+              <label for="extrasauce"> extra sauce</label><br>
+              
+              <input type="checkbox" id="extracheese" name="extracheese" value="extracheese">
+              <label for="extracheese"> extra cheese</label><br>
+      
+</tr>
+<tr>
+<td><label for="fries">Fries:</label></td>
+<td>
+            <select name="Sizes" id="sizes" size="1">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+           
+              </select>
+			  
+			  <select name="flavor" id="flavor" size="1">
+              <option value="bbq">bbq</option>
+              <option value="cheese">cheese</option>
+              <option value="sourcream">sour cream</option>
+           
+              </select>
+            </td>  
+			
+			
+<tr>
+<td><label for="drink">Drink:</label></td>
+<td>
+            <select name="Sizes" id="sizes" size="1">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+           
+              </select>
+			  
+			  <select name="flavor" id="flavor" size="1">
+              <option value="coke">coke</option>
+              <option value="sprite">sprite</option>
+              <option value="pepsi">pepsi</option>
+           
+              </select>
+            </td>  
+			
+			
+			 <tr>
+            <td><label for="feedback">Feedback:</label></td>
+            <td>
+              <textarea rows="10" cols="30"></textarea>
+            </td>
+          </tr>
+					
+</form>
+
+</table>
+
+
+<table class="orderselect">
+<caption>Customer's Information</caption>
+<form method="post" action="#customer" >
+<tr>
+<td style="padding-top:50px"><label for="name">Name:</label></td>
+<td style="padding-top:50px"><input type="text" name="name" size="30" placeholder="Type your name here" maxlength="50" autofocus required></td>
+</tr>
+<tr>
+<td><label for="phone">Cellphone No.:</label></td>
+<td><input type="tel" id="phone" name="phone" placeholder="+639XXXXXXXXX" pattern="+[0-9]{9}" required>
+
+</tr>
+
+<tr>
+<td><label for="email">Email:</label></td>
+<td><input type="email" id="email" name="email" placeholder="youremail@yourdomain" required>
+</tr>
+
+<tr>
+	<td><label for="addressdesc">Address Description:</label></td>
+	<td>
+	  <textarea rows="20" cols="40" placeholder="enter your landmark/place description here"></textarea>
+	</td>
+</tr>
+<tr>
+<td colspan="2"><input type="submit" value="Submit"></td>
+</tr>
+
+
+
+</form>
+</table>
+
+</div>
+
+
+</body>
+</html>
+  
+
+
+
+
+
+

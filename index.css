@@ -1,0 +1,139 @@
+body{
+	background-image: url("promo_video.gif");
+    background-size: cover;
+	background-repeat: no-repeat;
+	font-family:Arial;
+
+}
+
+.center {
+  /* border: 5px solid; */
+  margin: auto;
+  width: 50%;
+  text-align:center;
+}
+
+#logo{
+	margin-top:80px;
+	
+}
+.df button{
+	margin: 20px 30px 0px 20px;
+	padding: 20px 30px 20px 30px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+	font-size:2em;
+	box-shadow: -10px 40px 50px 10px rgba(0,0,0,0.3);
+
+}
+.df button:hover{
+	
+	background-color: rgba(250, 175, 0, 0.9);
+	padding: 50px;
+	color:white;
+	cursor:pointer;
+	
+	
+}
+
+
+
+
+#form1{
+	margin-top:200px;
+	background-color: rgba(250, 175, 0, 0.9);
+	
+}
+
+#menu table{
+ /* border:2px solid rgba(250, 175, 0, 0.9); */
+ border-collapse:collapse;
+ margin:10px auto;
+ 
+}
+
+#menu{
+	margin-top:20%;
+	background-color:rgba(255, 255, 255, 0.9);
+	font-size:1.5em;
+}
+
+#menu caption{
+	background-color: rgba(250, 175, 0, 0.9);
+	padding:40px 20px;
+	font-size: 2em;
+	
+}
+
+#menu img{
+	width:100%;
+	
+}
+
+#menu th{
+	width:700px;
+	padding:0px 10px 20px 0px;
+}
+
+#menu td{
+	padding:0px 20px 80px 0px;
+	
+}
+
+#menu td:hover{
+	background-color: rgba(250, 175, 0, 0.9);
+	
+	color:white;
+	cursor:pointer;
+	
+	
+}
+
+.orderselect{
+	text-align:left;
+	width:100%;
+	
+	
+}
+
+.orderselect td, .orderselect th{
+	text-align:left;
+	border-collapse:collapse;
+	border-bottom:20px green;
+}
+
+.orderselect label{
+	
+	padding:50px 20px 0px;
+}
+
+
+
+#customer input[type=text], textarea, select{
+  padding: 10px 60px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  rows:20;
+}
+
+input[type=submit]{
+  width:100%;
+  background-color:#bab8b6;
+  padding:14px 50px;
+  margin: 8px 0;
+  border: none;
+  border-radius:4px;
+  cursor: pointer;
+  font-family: verdana;
+  font-size: 1.125em;
+}
+
+input[type=submit]:hover{
+  background-color: #d6791c;
+  color:white;
+}
+textarea{
+  resize:none;
+}
