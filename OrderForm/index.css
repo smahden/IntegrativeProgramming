@@ -1,6 +1,7 @@
 body{
 	background-image: url("promo_video.gif");
     background-size: cover;
+	background-repeat: no-repeat;
 	font-family:Arial;
 
 }
@@ -35,6 +36,9 @@ body{
 	
 }
 
+
+
+
 #form1{
 	margin-top:200px;
 	background-color: rgba(250, 175, 0, 0.9);
@@ -42,7 +46,7 @@ body{
 }
 
 #menu table{
- /* border:5px solid #303c6c; */
+ /* border:2px solid rgba(250, 175, 0, 0.9); */
  border-collapse:collapse;
  margin:10px auto;
  
@@ -68,11 +72,11 @@ body{
 
 #menu th{
 	width:700px;
-	padding:0px 10px 0px 0px;
+	padding:0px 10px 20px 0px;
 }
 
 #menu td{
-	padding:0px 20px 40px 0px;
+	padding:0px 20px 80px 0px;
 	
 }
 
@@ -86,6 +90,50 @@ body{
 }
 
 .orderselect{
+	text-align:left;
+	width:100%;
 	
-	width:100%:
+	
+}
+
+.orderselect td, .orderselect th{
+	text-align:left;
+	border-collapse:collapse;
+	border-bottom:20px green;
+}
+
+.orderselect label{
+	
+	padding:50px 20px 0px;
+}
+
+
+
+#customer input[type=text], textarea, select{
+  padding: 10px 60px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  rows:20;
+}
+
+input[type=submit]{
+  width:100%;
+  background-color:#bab8b6;
+  padding:14px 50px;
+  margin: 8px 0;
+  border: none;
+  border-radius:4px;
+  cursor: pointer;
+  font-family: verdana;
+  font-size: 1.125em;
+}
+
+input[type=submit]:hover{
+  background-color: #d6791c;
+  color:white;
+}
+textarea{
+  resize:none;
 }
