@@ -74,10 +74,12 @@ body{
 #menu th{
 	width:700px;
 	padding:0px 10px 20px 0px;
+	text-align:left;
 }
 
 #menu td{
 	padding:0px 20px 80px 0px;
+	text-align:left;
 	
 }
 
